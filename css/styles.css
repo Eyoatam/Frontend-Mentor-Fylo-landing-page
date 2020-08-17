@@ -28,7 +28,6 @@ h2.large {
   font-size: 1.5em;
 }
 
-
 body {
   font-size: calc(.5vw + 1rem);
   line-height: 1.2;
@@ -139,11 +138,11 @@ header a:hover {
 }
 
 .hero-section .feature-1 {
-  font-size: 0.85em;
+  font-size: .85em;
 }
 
 .hero-section::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 50vw;
@@ -183,11 +182,11 @@ header a:hover {
   margin-bottom: 1.5em;
   max-width: 590px;
   line-height: 1.4em;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .hero-section button, .hero-section form .button--large, form .hero-section .button--large {
-  margin-top: 0.5rem;
+  margin-top: .5rem;
 }
 
 .features {
@@ -244,7 +243,7 @@ header a:hover {
 
 .features .feature-description {
   font-family: "Open Sans", sans-serif;
-  font-size: .8em;
+  font-size: 14px;
 }
 
 .productive {
@@ -317,14 +316,20 @@ header a:hover {
 }
 
 .productive-text a:hover {
-  padding-bottom: 0.2em;
+  padding-bottom: .2em;
   color: #339ecc;
   border-bottom: 1px solid #339ecc;
 }
 
 .quotes {
   background-color: #181f2a;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
+}
+
+@media screen and (min-width: 999px) {
+  .quotes {
+    padding-bottom: 200px;
+  }
 }
 
 .quotes__grid {
@@ -344,7 +349,7 @@ header a:hover {
 }
 
 .quotes__grid:first-child:before {
-  content: url("/images/bg-quotes.png");
+  content: url("../images/bg-quotes.png");
   transform: scale(0.7);
   position: absolute;
   z-index: 0;
@@ -425,7 +430,6 @@ header a:hover {
   position: absolute;
   background: transparent;
   width: 100%;
-  transform: translateY(-200px);
   padding: 0px;
 }
 
@@ -436,22 +440,31 @@ header a:hover {
   padding: 45px 30px 45px 30px;
   text-align: center;
   font-size: 1.2em;
+  transform: translateY(-300px);
 }
 
-@media screen and (min-width: 699px) {
+@media screen and (min-width: 999px) {
+  .signIn .signIn-wrapper {
+    transform: translateY(-200px);
+  }
+}
+
+@media screen and (min-width: 999px) and (min-width: 699px) {
   .signIn .signIn-wrapper {
     padding: 45px 60px 45px 60px;
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 999px) and (min-width: 999px) {
   .signIn .signIn-wrapper {
     padding: 45px 80px 45px 80px;
   }
 }
 
-.signIn .signIn-wrapper h2 {
-  margin-bottom: 1rem;
+@media screen and (min-width: 999px) {
+  .signIn .signIn-wrapper h2 {
+    margin-bottom: 1rem;
+  }
 }
 
 @media screen and (min-width: 999px) {
@@ -460,9 +473,11 @@ header a:hover {
   }
 }
 
-.signIn .signIn-wrapper h2 {
-  font-size: 1.3em;
-  margin-bottom: 25px;
+@media screen and (min-width: 999px) {
+  .signIn .signIn-wrapper h2 {
+    font-size: 1.3em;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (min-width: 999px) {
@@ -471,9 +486,11 @@ header a:hover {
   }
 }
 
-.signIn .signIn-wrapper h2 p {
-  font-size: .6em;
-  line-height: 1;
+@media screen and (min-width: 999px) {
+  .signIn .signIn-wrapper h2 p {
+    font-size: 0.6em;
+    line-height: 1;
+  }
 }
 
 @media screen and (min-width: 999px) {
@@ -482,7 +499,7 @@ header a:hover {
   }
 }
 
-.signIn .signIn__form {
+.signIn .signIn-wrapper .signIn__form {
   display: grid;
   gap: 25px;
   grid-template-columns: 1fr;
@@ -490,7 +507,7 @@ header a:hover {
 }
 
 @media screen and (min-width: 699px) {
-  .signIn .signIn__form {
+  .signIn .signIn-wrapper .signIn__form {
     grid-template-columns: 1fr 200px;
     gap: 30px;
     margin-top: 40px;
@@ -546,6 +563,12 @@ form input[type="email"] {
   background-color: #0b1523;
   font-size: 1rem;
   padding-top: 200px;
+}
+
+@media screen and (min-width: 999px) {
+  .footer {
+    padding-top: 200px;
+  }
 }
 
 .footer a:hover {
@@ -607,7 +630,7 @@ form input[type="email"] {
 }
 
 .footer-contact a {
-  font-size: .875rem;
+  font-size: 0.875rem;
 }
 
 .footer-contact_phone, .footer-contact_email {
@@ -672,7 +695,7 @@ form input[type="email"] {
 
 @media screen and (min-width: 1024px) {
   .footer-social svg {
-    margin-right: .2rem;
+    margin-right: 0.2rem;
   }
 }
 
