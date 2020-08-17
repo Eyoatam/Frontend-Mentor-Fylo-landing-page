@@ -42,7 +42,7 @@ section {
 }
 
 p {
-  font-size: .8755rem;
+  font-size: .875rem;
 }
 
 @media screen and (min-width: 999px) {
@@ -148,7 +148,7 @@ header a:hover {
   height: 50vw;
   bottom: 0px;
   z-index: 0;
-  background-image: url(../images/bg-curvy-mobile.svg);
+  background-image: url(/images/bg-curvy-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -156,7 +156,7 @@ header a:hover {
 
 @media screen and (min-width: 699px) {
   .hero-section::after {
-    background-image: url(../images/bg-curvy-desktop.svg);
+    background-image: url(/images/bg-curvy-desktop.svg);
     height: 33vw;
   }
 }
@@ -304,7 +304,7 @@ header a:hover {
 }
 
 .productive-text a {
-  background-image: url(../images/icon-arrow.svg);
+  background-image: url(/images/icon-arrow.svg);
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
@@ -349,7 +349,7 @@ header a:hover {
 }
 
 .quotes__grid:first-child:before {
-  content: url("../images/bg-quotes.png");
+  content: url("/images/bg-quotes.png");
   transform: scale(0.7);
   position: absolute;
   z-index: 0;
@@ -467,7 +467,7 @@ header a:hover {
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 999px) and (min-width: 999px) {
   .signIn .signIn-wrapper {
     font-size: 1.5em;
   }
@@ -480,7 +480,7 @@ header a:hover {
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 999px) and (min-width: 999px) {
   .signIn .signIn-wrapper h2 {
     font-size: 1.3em;
   }
@@ -493,7 +493,7 @@ header a:hover {
   }
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 999px) and (min-width: 999px) {
   .signIn .signIn-wrapper h2 p {
     font-size: 1rem;
   }
