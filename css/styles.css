@@ -697,18 +697,6 @@ form input[type="email"] {
   transition: background 300ms ease-in-out;
 }
 
-@media screen and (min-width: 1024px) {
-  .footer-social svg {
-    margin-right: 0.2rem;
-  }
-}
-
-@media screen and (min-width: 1248px) {
-  .footer-social svg {
-    margin-right: 1rem;
-  }
-}
-
 .footer-social #facebook:hover {
   background-color: #3b5998;
 }
@@ -719,4 +707,16 @@ form input[type="email"] {
 
 .footer-social #instagram:hover {
   background-color: #f152afdc;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-social svg {
+    margin-right: 0.2rem;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .footer-social svg {
+    margin-right: 1rem;
+  }
 }
