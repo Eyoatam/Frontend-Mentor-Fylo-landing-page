@@ -571,10 +571,6 @@ form input[type="email"] {
   }
 }
 
-.footer a:hover {
-  transform: translateX(8px);
-}
-
 .footer .wrapper, .footer .wrapper--small {
   display: grid;
   grid-row-gap: 35px;
@@ -671,6 +667,14 @@ form input[type="email"] {
   grid-area: link2;
 }
 
+.footer-link1 a:hover {
+  transform: translateX(8px);
+}
+
+.footer-link2 a:hover {
+  transform: translateX(8px);
+}
+
 .footer-social {
   grid-area: social;
   justify-self: center;
@@ -715,5 +719,4 @@ form input[type="email"] {
 
 .footer-social #instagram:hover {
   background-color: #f152afdc;
-  fill: #fff;
 }
