@@ -159,7 +159,7 @@ header a:hover {
 	height: 50vw;
 	bottom: 0px;
 	z-index: 0;
-	background-image: url(../images/bg-curvy-mobile.svg);
+	background-image: url(/bg-curvy-mobile.3eef75f6.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom center;
@@ -167,7 +167,7 @@ header a:hover {
 
 @media screen and (min-width: 699px) {
 	.hero-section::after {
-		background-image: url(../images/bg-curvy-desktop.svg);
+		background-image: url(/bg-curvy-desktop.b3534639.svg);
 		height: 33vw;
 	}
 }
@@ -318,7 +318,7 @@ form .hero-section .button--large {
 }
 
 .productive-text a {
-	background-image: url(/images/icon-arrow.svg);
+	background-image: url(/icon-arrow.56d7c493.svg);
 	width: 16px;
 	height: 16px;
 	background-repeat: no-repeat;
@@ -363,7 +363,7 @@ form .hero-section .button--large {
 }
 
 .quotes__grid:first-child:before {
-	content: url("/images/bg-quotes.png");
+	content: url("/bg-quotes.2a98a720.png");
 	transform: scale(0.7);
 	position: absolute;
 	z-index: 0;
@@ -748,3 +748,6 @@ form input[type="email"] {
 		margin-right: 1rem;
 	}
 }
+
+
+/*# sourceMappingURL=/styles.b61e60ae.css.map */
