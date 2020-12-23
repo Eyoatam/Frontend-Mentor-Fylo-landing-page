@@ -191,6 +191,7 @@ header a:hover {
 
 .features {
   background-color: #181f2a;
+  max-width: none;
 }
 
 .features .features-wrapper {
